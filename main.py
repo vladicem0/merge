@@ -7,8 +7,8 @@ import os
 """
 
 
-path1 = 'G:\\vid\\Download\\'
-path2 = 'G:\\vid\\_pic\\'
+path1 = 'G:\\path1\\'
+path2 = 'G:\\path2\\'
 
 
 def check_similar_names(saved_pictures: list[str], picture: str) -> bool:
@@ -101,3 +101,4 @@ def replace(similar_name: bool = False) -> None:
 if __name__ == '__main__':
     replace()
     input()
+
